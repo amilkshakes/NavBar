@@ -1,3 +1,14 @@
+/* Adding the following CSS to make the navigation bar horizontal */
+ul {
+  display: flex;
+  list-style-type: none; /* Remove default list styles */
+}
+
+li {
+  margin-right: 10px; /* Adjust spacing between list items if needed */
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #001f3f; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -43,17 +43,6 @@ export default function App() {
 
             </>
       
-
-
-
-
-
-
-    // <div className="App">
-      
-      
-    //   <AppRouter />
-    // </div>
   );
 }
 
