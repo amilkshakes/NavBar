@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './NavBar';
 import Home from './Home';
 import MaterialUI from './MaterialUI';
 import Npm from './Npm';
@@ -12,15 +11,15 @@ export default function App() {
             <>
               <Router>
 
-              <div>
+              <div className = "App-header">
               <ul>
-                <li>
+                <li className = "mod">
                   <Link to="/">Home</Link>
                 </li>
-                <li>
+                <li className = "mod1">
                   <Link to="/MaterialUI">MaterialUI</Link>
                 </li>
-                <li>
+                <li className = "mod2">
                   <Link to="/Npm">Npm</Link>
                 </li>
               </ul>

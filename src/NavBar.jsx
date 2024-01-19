@@ -24,6 +24,6 @@ function NavBar ()
             </Toolbar>
         </AppBar>
     );
-}
+};
 
 export default NavBar;
